@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNgSuite">
+	<listeners>
+		<listener class-name="com.frameworkDesign.SeleniumFrameWorkDesign.Testcomponents.Listeners"></listener>
+	</listeners>
+	
+	<test thread-count="5" name="WorkingWithListners">
+		
+		<classes>
+			<class name="com.frameworkDesign.SeleniumFrameWorkDesign.ErrorValidation" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EndToEnd(failed)">
+    <classes>
+      <class name="com.frameworkDesign.SeleniumFrameWorkDesign.EndtoEndTc2">
+        <methods>
+          <include name="verifyTheProduct"/>
+          <include name="launchApplicationFromBase"/>
+          <include name="tearDown"/>
+          <include name="addProduct"/>
+        </methods>
+      </class> <!-- com.frameworkDesign.SeleniumFrameWorkDesign.EndtoEndTc2 -->
+    </classes>
+  </test> <!-- EndToEnd(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

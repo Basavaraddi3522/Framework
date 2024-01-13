@@ -1,0 +1,8 @@
+com\frameworkDesign\SeleniumFrameWorkDesign\Testcomponents\BaseTest.class
+com\frameworkDesign\SeleniumFrameWorkDesign\ErrorValidation.class
+com\frameworkDesign\SeleniumFrameWorkDesign\Testcomponents\Listeners.class
+com\frameworkDesign\SeleniumFrameWorkDesign\data\DataReader$1.class
+com\frameworkDesign\SeleniumFrameWorkDesign\data\DataReader.class
+com\frameworkDesign\SeleniumFrameWorkDesign\Testcomponents\BaseTest$1.class
+com\frameworkDesign\SeleniumFrameWorkDesign\Testcomponents\RetryFlakyScripts.class
+com\frameworkDesign\SeleniumFrameWorkDesign\EndtoEndTc.class

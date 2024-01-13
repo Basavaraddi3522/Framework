@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="EndToEnd(failed)" verbose="0">
+    <classes>
+      <class name="com.frameworkDesign.SeleniumFrameWorkDesign.ErrorValidation">
+        <methods>
+          <include name="launchApplicationFromBase"/>
+          <include name="tearDown"/>
+          <include name="addProductt" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.frameworkDesign.SeleniumFrameWorkDesign.ErrorValidation -->
+    </classes>
+  </test> <!-- EndToEnd(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

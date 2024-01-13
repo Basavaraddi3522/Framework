@@ -1,0 +1,9 @@
+com\frameworkDesign\SeleniumFrameWorkDesign\App.class
+reusableComponents\Reusablemethods.class
+com\frameworkDesign\SeleniumFrameWorkDesign\resources\Extentreport.class
+frameWorksPages\ProductListiningPage.class
+frameWorksPages\CheckOutPage.class
+frameWorksPages\LandingPage.class
+frameWorksPages\CartPage.class
+frameWorksPages\MyOrdersPage.class
+frameWorksPages\ConfirmationPage.class
