@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNgSuite">
+	<test thread-count="5" name="WorkingWithTestNG">
+		<classes>
+			<class name="WorkingWithTestNG.BasicWorkingOfTestNg" />
+			<class name="WorkingWithTestNG.BasicWoorkingOfTestNg2" />
+		</classes>
+	</test>
+	<test name="WorkingWithTestNGMod2">
+		<classes>
+			<class name="WorkingWithTestNGMod2.SecondMduleTC01" />
+			<class name="WorkingWithTestNGMod2.ExcludethemethodsInsingleclass">
+
+				<methods>
+					<include name="ApiLogin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

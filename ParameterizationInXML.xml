@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNgSuite">
+	
+	<test thread-count="5" name="WorkingWithTestNG">
+		<parameter name="Url" value="www.amazon.com"></parameter>
+		<classes>
+			<class name="testNgParameterizationInXML.Parameterization" />
+		</classes>
+	</test>
+</suite> 
